@@ -1,9 +1,12 @@
 :root {
     /* variables */
-    --cg-black: rgb(30, 32, 32);
-    --cg-blue: rgb(36, 94, 255);
-    --cg-grey: rgb(243, 243, 243);
-    --cg-white: rgb(255, 255, 255);
+    --cg-black: rgb(23, 91, 42);
+    --cg-blue: rgb(235, 150, 14);
+    --cg-grey: background: rgb(138, 214, 164);
+    background: -moz-linear-gradient(0deg, rgba(138, 214, 164, 1) 6%, rgba(33, 133, 88, 1) 61%);
+    background: -webkit-linear-gradient(0deg, rgba(138, 214, 164, 1) 6%, rgba(33, 133, 88, 1) 61%);
+    background: linear-gradient(0deg, rgba(138, 214, 164, 1) 6%, rgba(33, 133, 88, 1) 61%);
+    --cg-white: rgb(94, 235, 66);
   }
   
   html {
@@ -86,6 +89,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
   }
   
   .page-title {
